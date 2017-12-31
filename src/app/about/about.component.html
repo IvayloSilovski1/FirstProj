@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+    <h1>About Component works correctly!</h1>
+    <a href="" (click)="sendHome()"><strong>Back</strong></a>
+  <br><br>
+
+    <h2>Your Life Goals...</h2>
+    <div *ngFor="let goal of goals">
+      <h3>-> {{goal}}</h3>
+    </div>
+</body>
+</html>
